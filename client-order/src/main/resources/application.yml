@@ -1,0 +1,9 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: client-order
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller

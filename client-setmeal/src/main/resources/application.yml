@@ -1,0 +1,9 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: client-setmeal
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller

@@ -1,0 +1,76 @@
+server:
+  port: 10010
+logging:
+  level:
+    com.xwh: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+    gateway:
+      routes:
+        - id: server-user
+          uri: lb://server-user
+          predicates:
+            - Path=/user/**
+        - id: server-emp
+          uri: lb://server-emp
+          predicates:
+            - Path=/employee/**
+        - id: client-address
+          uri: lb://client-address
+          predicates:
+            - Path=/addressBook/**
+        - id: server-category
+          uri: lb://server-category
+          predicates:
+            - Path=/category/**
+        - id: client-dish
+          uri: lb://client-dish
+          predicates:
+            - Path=/dish/**
+        - id: client-setmeal
+          uri: lb://client-setmeal
+          predicates:
+            - Path=/setmeal/**
+        - id: client-order
+          uri: lb://client-order
+          predicates:
+            - Path=/order/**
+        - id: server-shop
+          uri: lb://server-shop
+          predicates:
+            - Path=/shop/**
+        - id: client-cart
+          uri: lb://client-cart
+          predicates:
+            - Path=/shoppingCart/**
+        - id: client-payment
+          uri: lb://client-payment
+          predicates:
+            - Path=/payment/**
+        - id: elasticsearch-api
+          uri: lb://elasticsearch-api
+          predicates:
+            - Path=/es/**
+        - id: server-file
+          uri: lb://server-file
+          predicates:
+            - Path=/common/**
+        - id: server-report
+          uri: lb://server-report
+          predicates:
+            - Path=/report/**
+        - id: server-workspace
+          uri: lb://server-workspace
+          predicates:
+            - Path=/workspace/**
+

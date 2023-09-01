@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-payment" />
+        <module name="client-dish" />
+        <module name="server-workspace" />
+        <module name="server-emp" />
+        <module name="client-setmeal" />
+        <module name="server-file" />
+        <module name="server-shop" />
+        <module name="client-user" />
+        <module name="task-api" />
+        <module name="gateway-api" />
+        <module name="feign-api" />
+        <module name="server-report" />
+        <module name="client-order" />
+        <module name="client-address" />
+        <module name="client-category" />
+        <module name="client-cart" />
+        <module name="elasticsearch-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="client-shop" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Sky-take-out-cloud" options="" />
+      <module name="client-address" options="-parameters" />
+      <module name="client-cart" options="-parameters" />
+      <module name="client-category" options="-parameters" />
+      <module name="client-dish" options="-parameters" />
+      <module name="client-order" options="-parameters" />
+      <module name="client-payment" options="-parameters" />
+      <module name="client-setmeal" options="-parameters" />
+      <module name="client-shop" options="-parameters" />
+      <module name="client-user" options="-parameters" />
+      <module name="elasticsearch-api" options="-parameters" />
+      <module name="feign-api" options="-parameters" />
+      <module name="gateway-api" options="-parameters" />
+      <module name="server-emp" options="-parameters" />
+      <module name="server-file" options="-parameters" />
+      <module name="server-report" options="-parameters" />
+      <module name="server-shop" options="-parameters" />
+      <module name="server-workspace" options="-parameters" />
+      <module name="task-api" options="-parameters" />
+    </option>
+  </component>
+</project>

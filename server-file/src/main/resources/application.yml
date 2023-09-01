@@ -1,0 +1,9 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: server-file
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller

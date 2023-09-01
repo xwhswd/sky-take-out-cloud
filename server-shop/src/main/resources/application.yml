@@ -1,0 +1,9 @@
+server:
+  port: 8093
+spring:
+  application:
+    name: server-shop
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller

@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        #告知客户端到哪台服务器去找 nacos server 注册中心总的地址
+        server-addr: localhost:8848 # 配置nacos server 注册中心地址
+        group: DEFAULT_GROUP # 指定拉取的组
+        file-extension: yaml
+        name: common-config

@@ -1,0 +1,10 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: server-user
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller
+

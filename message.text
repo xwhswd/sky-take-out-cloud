@@ -1,0 +1,20 @@
+1.address地址模块 √
+2.cart购物车模块 √
+3.dish菜品模块 √
+4.order订单模块 √
+5.payment支付模块----使用mq  √
+6.setmeal套餐模块 √
+7.user用户模块 √
+8.emp员工模块 √
+9.file文件模块 √
+10.report通知模块
+11.shop店铺操作模块 √
+12.workshop工作台模块 √
+13.es搜索模块(未知)
+14.task任务模块(完成redis和mysql之间的复制)
+15.feign通信模块 √
+16.gateway网关模块  √
+
+
+
+还有几个功能没实现-微信支付,定时任务，WebSocket，es搜索

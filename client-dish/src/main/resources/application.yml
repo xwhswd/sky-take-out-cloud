@@ -1,0 +1,9 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: client-dish
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller

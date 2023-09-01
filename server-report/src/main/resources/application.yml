@@ -1,0 +1,9 @@
+server:
+  port: 8092
+spring:
+  application:
+    name: server-report
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller

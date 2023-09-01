@@ -1,0 +1,9 @@
+server:
+  port: 8094
+spring:
+  application:
+    name: server-workspace
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller

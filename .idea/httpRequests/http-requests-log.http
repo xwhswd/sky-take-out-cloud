@@ -1,0 +1,20 @@
+GET http://localhost:10010/actuator
+Accept: application/vnd.spring-boot.actuator.v3+json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-02T142059.200.json
+
+###
+
+GET http://localhost:10010/actuator
+Accept: application/vnd.spring-boot.actuator.v3+json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-08-02T142047.200.json
+
+###
+

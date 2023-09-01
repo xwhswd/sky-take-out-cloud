@@ -1,0 +1,52 @@
+server:
+  port: 8095
+
+spring:
+  application:
+    name: task-api
+  redis:
+    host: 192.168.39.129
+    port: 6379
+    timeout: 100000
+  rabbitmq:
+    host: 192.168.39.129
+    port: 5672 #端口
+    username: huanfqc #连接rabbitmq的用户名
+    password: 123456 #连接rabbitmq的密码
+    virtual-host: / #wzsbn对应的虚拟主机
+    listener:
+      simple:
+        prefetch: 1 #每次只能获取一条消息，处理完成才能获取下一条消息
+        #改变默认重传机制，重试机制：拒绝，重新入队，投递死信交换机
+        retry:
+          enabled: true # 开启消费者失败重试
+          initial-interval: 1000 # 初始的失败等待时长为1秒
+          multiplier: 1 # 下次失败的等待时长倍数，下次失败的等待时长倍数，下次等待时长 = multiplier * last-interval
+          max-attempts: 3 # 最大重试次数
+          stateless: true # # true无状态；false有状态。如果业务中包含事务，这里改为false
+        acknowledge-mode: auto #消费者确认
+    #发布者确认
+    publisher-confirm-type: correlated # 异步回调，回调的是ConfirmCallback  simple：同步等待 ，易阻塞
+    publisher-returns: true #基于异步回调，定义ReturnCallBack
+    template: #路由失败策略，true调用ReturnCallback，否则直接丢弃
+      mandatory: true
+
+
+#powerjob配置
+powerjob:
+  worker:
+    app-name: task-application
+    server-address: 127.0.0.1:7700
+    protocol: http
+    store-strategy: disk
+    max-result-length: 4096
+    max-appended-wf-context-length: 4096
+    max-lightweight-task-num: 1024
+    max-heavy-task-num: 64
+    akka-port: 27777
+    port: 27778
+minio:
+  ip: 192.168.39.129
+  port: 9090
+  accessKey: V0PNIKOR492E64YNAR63
+  secretKey: 9iJfB9ah3T1bEwLgdph9l6ZJn4n3+EpuKtzioZNq

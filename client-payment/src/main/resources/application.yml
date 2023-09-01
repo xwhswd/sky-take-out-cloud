@@ -1,0 +1,9 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: client-payment
+swagger:
+  enabled: true
+  groupName: server-user
+  basePackage: com.xwh.controller

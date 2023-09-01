@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a18ab05-438e-413c-a6c8-591f52512a65" name="Changes" comment="苍穹外卖cloud简陋版">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Development Environment\Maven\Iweb\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Development Environment/Maven/Iweb/apache-maven-3.5.0" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Development Environment\Maven\Iweb\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadSourcesAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jdk-1.8" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2T9V8z37sFIqvPIKq9kr84o1IwH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-Spring Configuration Check": "Spring configuration issues detected",
+    "Notification.DoNotAsk-Spring Configuration Check": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/BaiduNetdiskDownload/Sky-take-out-cloud",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "92ad3bd3170d0a3a1c58bcfaf089026f",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\BaiduNetdiskDownload\Sky-take-out-cloud\feign-api\src\main\java\com\xwh" />
+      <recent name="D:\BaiduNetdiskDownload\Sky-take-out-cloud\feign-api\src\main\java\com\xwh\constants" />
+      <recent name="D:\BaiduNetdiskDownload\Sky-take-out-cloud\feign-api\src\main\java\com\xwh\util" />
+      <recent name="D:\BaiduNetdiskDownload\Sky-take-out-cloud\server-report\src\main\resources" />
+      <recent name="D:\BaiduNetdiskDownload\Sky-take-out-cloud\feign-api\src\main\java\com\xwh\pojo\vo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xwh.util" />
+      <recent name="com.xwh.config" />
+      <recent name="com.xwh.constants" />
+      <recent name="com.xwh.pojo.dto" />
+      <recent name="com.xwh.controller" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SetmealApplication">
+    <configuration name="AddressBookApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client-address" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.AddressBookApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client-category" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.CategoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DishApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client-dish" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.DishApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="elasticsearch-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.ESApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmpServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="server-emp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.EmpServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="server-file" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.FileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="gateway-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client-payment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.PaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="server-report" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.ReportApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetmealApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client-setmeal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.SetmealApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="server-shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.ShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client-cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.ShoppingCartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.TaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="client-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.UserServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkSpaceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="server-workspace" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xwh.WorkSpaceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SetmealApplication" />
+      <item itemvalue="Spring Boot.PaymentApplication" />
+      <item itemvalue="Spring Boot.UserServerApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.AddressBookApplication" />
+      <item itemvalue="Spring Boot.CategoryApplication" />
+      <item itemvalue="Spring Boot.DishApplication" />
+      <item itemvalue="Spring Boot.EmpServiceApplication" />
+      <item itemvalue="Spring Boot.ESApplication" />
+      <item itemvalue="Spring Boot.FileApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.ReportApplication" />
+      <item itemvalue="Spring Boot.ShopApplication" />
+      <item itemvalue="Spring Boot.ShoppingCartApplication" />
+      <item itemvalue="Spring Boot.TaskApplication" />
+      <item itemvalue="Spring Boot.WorkSpaceApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a18ab05-438e-413c-a6c8-591f52512a65" name="Changes" comment="" />
+      <created>1686206469511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686206469511</updated>
+      <workItem from="1690455345929" duration="1424000" />
+      <workItem from="1690458293562" duration="860000" />
+      <workItem from="1690461887190" duration="2901000" />
+      <workItem from="1690503418591" duration="7178000" />
+      <workItem from="1690512888480" duration="7379000" />
+      <workItem from="1690532432339" duration="12333000" />
+      <workItem from="1690589472859" duration="1472000" />
+      <workItem from="1690591058713" duration="6853000" />
+      <workItem from="1690614383562" duration="13669000" />
+      <workItem from="1690686962236" duration="24462000" />
+      <workItem from="1690762164272" duration="10574000" />
+      <workItem from="1690775016182" duration="21064000" />
+      <workItem from="1690849484920" duration="7000" />
+      <workItem from="1690850766963" duration="1782000" />
+      <workItem from="1690861630060" duration="727000" />
+      <workItem from="1690870523045" duration="9126000" />
+      <workItem from="1690934976377" duration="22029000" />
+      <workItem from="1691035956238" duration="8819000" />
+      <workItem from="1691110663663" duration="27080000" />
+      <workItem from="1691154889647" duration="9031000" />
+      <workItem from="1691195579507" duration="827000" />
+      <workItem from="1691196418351" duration="24901000" />
+      <workItem from="1691229338347" duration="619000" />
+      <workItem from="1691290262202" duration="8586000" />
+      <workItem from="1691369578759" duration="18641000" />
+      <workItem from="1691454978242" duration="16844000" />
+      <workItem from="1691483121559" duration="293000" />
+      <workItem from="1691539782361" duration="10524000" />
+      <workItem from="1691591702710" duration="124000" />
+      <workItem from="1691592485562" duration="606000" />
+      <workItem from="1691628114276" duration="59000" />
+      <workItem from="1691629264168" duration="1238000" />
+      <workItem from="1691646899713" duration="4000" />
+      <workItem from="1691653394094" duration="16000" />
+      <workItem from="1691715308169" duration="5000" />
+      <workItem from="1691985460716" duration="36000" />
+      <workItem from="1692003070804" duration="5000" />
+      <workItem from="1692757749733" duration="1160000" />
+      <workItem from="1692843345059" duration="124000" />
+      <workItem from="1692857426325" duration="667000" />
+      <workItem from="1692858282602" duration="7024000" />
+      <workItem from="1692865459040" duration="7831000" />
+      <workItem from="1692925100732" duration="28491000" />
+      <workItem from="1693190433111" duration="21000" />
+      <workItem from="1693203374911" duration="1901000" />
+      <workItem from="1693210739070" duration="598000" />
+      <workItem from="1693270096502" duration="515000" />
+      <workItem from="1693271054345" duration="2857000" />
+      <workItem from="1693284848500" duration="212000" />
+      <workItem from="1693356498938" duration="92000" />
+      <workItem from="1693363334284" duration="895000" />
+      <workItem from="1693365222636" duration="11846000" />
+      <workItem from="1693446525538" duration="4538000" />
+      <workItem from="1693453312011" duration="346000" />
+      <workItem from="1693453675103" duration="48000" />
+      <workItem from="1693553948835" duration="423000" />
+      <workItem from="1693554391863" duration="2700000" />
+      <workItem from="1693558965509" duration="315000" />
+    </task>
+    <task id="LOCAL-00001" summary="基于cloud的外卖平台">
+      <created>1691378716513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691378716513</updated>
+    </task>
+    <task id="LOCAL-00002" summary="苍穹外卖cloud简陋版">
+      <created>1693557727201</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693557727201</updated>
+    </task>
+    <task id="LOCAL-00003" summary="苍穹外卖cloud简陋版">
+      <created>1693558229639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693558229639</updated>
+    </task>
+    <task id="LOCAL-00004" summary="苍穹外卖cloud简陋版">
+      <created>1693558318218</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693558318218</updated>
+    </task>
+    <task id="LOCAL-00005" summary="苍穹外卖cloud简陋版">
+      <created>1693559004588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693559004588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="基于cloud的外卖平台" />
+    <MESSAGE value="苍穹外卖cloud简陋版" />
+    <option name="LAST_COMMIT_MESSAGE" value="苍穹外卖cloud简陋版" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/client-setmeal/src/main/java/com/xwh/service/SetmealService.java</url>
+          <line>41</line>
+          <properties class="com.xwh.service.SetmealService" method="saveWithDish">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Sky_take_out_cloud$RedisLockTest_testSetNX2.ic" NAME="RedisLockTest.testSetNX2 Coverage Results" MODIFIED="1692928281506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.xwh.task.redisLock.*</FILTER>
+    </SUITE>
+  </component>
+</project>
